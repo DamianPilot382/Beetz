@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/393359/Desktop/Beetz/mobile/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
+        jumboMode="true"
+        revision="24.0.0 rc2"
+        sha1="a834ad229ffb940e248ec2d99d5c677c292292b0">
+        <dex dex="/Users/393359/Desktop/Beetz/mobile/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_9739dffc4a35bb515df3dab37b94ad3dc7b3c134/classes.dex" />
+    </item>
+    <item
+        jar="/Users/393359/Desktop/Beetz/mobile/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_sliceb.jar"
+        jumboMode="true"
+        revision="24.0.0 rc2"
+        sha1="c6bbd06d1e59017ee86e88aec21861b293ad2398">
+        <dex dex="/Users/393359/Desktop/Beetz/mobile/build/intermediates/transforms/dex/debug/folders/1000/5/main_sliceb_b3fedb58be779e706eb4e8f3c2726a551798469f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/393359/Desktop/Beetz/mobile/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
+        jumboMode="true"
+        revision="24.0.0 rc2"
+        sha1="f4da4838d72793e51f5bd917a68f8a282d2da2b0">
+        <dex dex="/Users/393359/Desktop/Beetz/mobile/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_840559c6d894584d49588ded6151cd1823287878/classes.dex" />
+    </item>
+
+</items>
