@@ -2,81 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_sliceb.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="6d9ed9a288364688e7fcf6704776284dac1eb42e">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.3.0_04eea63e307a5ff6913db7a2b147684e4a2bebc1.jar" />
+        sha1="89cfeed60c763ca41452ddc03fcbecba7d0ea1ac">
+        <dex dex="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/5/main_sliceb_7b6ddfeda12dad760df8d8bc6c791372eaf56f2a/classes.dex" />
     </item>
     <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.3.0_7489b599d7a06523413d69893c07f914d10ca805.jar" />
+        sha1="10b69f89e5b4ef07c57e678f7f88164d56279436">
+        <dex dex="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_a8cab4c1dcd09df5c08eb6b9a57426bf13f1206e/classes.dex" />
     </item>
     <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="77f9593d979f4347344be233bd0d888315f79517">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.3.0_83b9c6c6d755e9a4f7ff893dd5fe3aca03564fc2.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="c6d79137693d494dee16372d3921f919eb724ced">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-22.0.0_d99cb4036e7c7e4f88c6037bf7aea286191ce797.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_d6a3162d2c10f32f104e396cd5cf918d335f4bfa.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="58b928ccbaf9090c632f278d6bd31e1ae42f2457">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.google.android.support-wearable-1.3.0_c07fbdb062c2f8e226f60d6ebaacf2049f1f3100.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.3.0_48e0e311b2e08f6f185c755052f7dc17c13e5f2b.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.0_3de2c195bd0e29debf2d99a406fc5f4b5f75df38.jar" />
-    </item>
-    <item
-        jar="/Volumes/MultiuserPartition/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_c623a48d384f57ea5d8ca21751be171c670a0615.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9aedc597d74c6d77258ce5236e9abff0c3cc65e3">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.3.0_2c06d2284bd88b4051580dd2f0e851e21775e187.jar" />
-    </item>
-    <item
-        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="697679619b00837e3d09e9988a2e1e2a9009d502">
-        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-8.3.0_6e4df8fe09157a0ed6b003271e46a895df5420fc.jar" />
+        sha1="8c0e647692eef41f252679ad5d612d9c65aa0d9c">
+        <dex dex="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_ad970c2130a982a0ffa02e2e98290a93a7b1e7ed/classes.dex" />
     </item>
 
 </items>
