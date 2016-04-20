@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_sliceb.jar"
+        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_sliceb.jar"
         jumboMode="true"
-        revision="23.0.2"
-        sha1="89cfeed60c763ca41452ddc03fcbecba7d0ea1ac">
-        <dex dex="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/5/main_sliceb_7b6ddfeda12dad760df8d8bc6c791372eaf56f2a/classes.dex" />
+        revision="23.0.1"
+        sha1="1b22913a30ce908777053c8dc199e47de6326996">
+        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/5/main_sliceb_d69b4319c9d31280f772ac1ad744a2af58477572/classes.dex" />
     </item>
     <item
-        jar="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
+        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
         jumboMode="true"
-        revision="23.0.2"
-        sha1="10b69f89e5b4ef07c57e678f7f88164d56279436">
-        <dex dex="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_a8cab4c1dcd09df5c08eb6b9a57426bf13f1206e/classes.dex" />
+        revision="23.0.1"
+        sha1="b357695cb9434b6607f7fc0b9b5673b71feb70f2">
+        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_161620815ce8682f2bbe77095deaa37535154472/classes.dex" />
     </item>
     <item
-        jar="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
+        jar="/Users/393359/Desktop/Beetz/wear/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
         jumboMode="true"
-        revision="23.0.2"
-        sha1="8c0e647692eef41f252679ad5d612d9c65aa0d9c">
-        <dex dex="/Users/csastudent2015/Downloads/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_ad970c2130a982a0ffa02e2e98290a93a7b1e7ed/classes.dex" />
+        revision="23.0.1"
+        sha1="2ce6c793ec7f84ec49f0a646d51adde89100e878">
+        <dex dex="/Users/393359/Desktop/Beetz/wear/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_d48d619737224108f079d8c23f820ed9c34d31f7/classes.dex" />
     </item>
 
 </items>
