@@ -32,7 +32,7 @@ limitations under the License.
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_below="@id/title_text_view">
-        <com.pilotcraftsystems.beetz.LogView
+        <com.pilotcraftsystems.main.LogView
             android:id="@+id/sample_logview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
