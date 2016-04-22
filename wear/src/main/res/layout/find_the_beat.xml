@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.pilotcraftsystems.main.MainActivity"
     tools:deviceIds="wear">
 
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="45"
+        android:textColor="#262626"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/texview_design"
+        app:layout_box="all" />
+
+
+
+
+    <!--
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -37,6 +56,6 @@
             android:rotation="90"
             android:id="@+id/arrow"/>
 
-    </RelativeLayout>
+    </RelativeLayout>-->
 
 </android.support.wearable.view.BoxInsetLayout>
