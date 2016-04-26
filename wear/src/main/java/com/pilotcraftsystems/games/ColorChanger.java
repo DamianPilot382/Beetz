@@ -1,5 +1,7 @@
 package com.pilotcraftsystems.games;
 
+import android.util.Log;
+
 /**
  * Created by csastudent2015 on 4/22/16.
  * csastudent2015 is super cool.
@@ -12,6 +14,7 @@ public class ColorChanger {
     public final int MIN_RGB=0;
     private static int red;
     private static int blue;
+    public final String TAG= "IMPORTANT INFO";
     public ColorChanger(int max, int min, int target){
     max=this.max;
         min=this.min;
@@ -23,16 +26,29 @@ public class ColorChanger {
 
     public void updateRGB(int heartBeet){
         int range;
+        //if the beat hits the target
         if(heartBeet==target){
+            //max red and blue
             red=255;
             blue=255;
-        }else if(heartBeet<target){
+            Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
+        }
+        //if the beat is below the target...
+        else if(heartBeet<target){
             range=target-min;
+            //remove some red
             red= (int)(((heartBeet-min)/range)*MAX_RGB);
             blue=255;
-        }else{
+            Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
+        }
+        //if the beat is above the target...
+        else{
             range=max-target;
+            red=255;
+            //remove some blue
             blue=(int)(((heartBeet-target)/range)*MAX_RGB);
+            Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
+
         }
     }
 
