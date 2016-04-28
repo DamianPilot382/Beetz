@@ -2,7 +2,6 @@ package com.pilotcraftsystems.games;
 
 import android.os.Bundle;
 import android.support.wearable.activity.WearableActivity;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.pilotcraftsystems.main.HeartRateReader;
@@ -14,7 +13,6 @@ import com.pilotcraftsystems.main.R;
 public class FindTheBeetActivity extends WearableActivity {
 
     TextView mHeartRate;
-    ImageView arrow;
     FindTheBeet findTheBeat;
     HeartRateReader heartRateReader;
 
@@ -23,50 +21,27 @@ public class FindTheBeetActivity extends WearableActivity {
     int rotation;
     int beetToFind;
 
+    public static final int BASE_HR = 80;
+    public static final int HR_RANDOMNESS = 20;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.find_the_beat);
-        mHeartRate = (TextView) findViewById(R.id.heartText);
-        arrow = (ImageView) findViewById(R.id.arrow);
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.find_the_beat);
+            mHeartRate = (TextView) findViewById(R.id.heartText);
 
-        heartRateReader = new HeartRateReader(this);
+            heartRateReader = new HeartRateReader(this);
 
-        rotation = 0;
-        beetToFind = (int)(Math.random() * 40 + 60);
+            rotation = 0;
+            beetToFind = (int) (Math.random() * HR_RANDOMNESS + BASE_HR);
 
-        running = true;
+            running = true;
 
-        //startGame();
+            //startGame();
+        /**
+         * INSERT BORING CODE HERE... Time for other people to do something. Im too lazy...
+         */
 
     }
-
-    public void update() {
-        int current = heartRateReader.getCurrentHeartRate();
-        if(current > beetToFind){
-            int diff = current - beetToFind;
-            if(diff >= 50) rotation = -90;
-            else if(diff >= 25) rotation = -45;
-            else rotation = -10;
-        }else if(current < beetToFind){
-            int diff = current - beetToFind;
-            if(diff >= 50) rotation = 90;
-            else if(diff >= 25) rotation = 45;
-            else rotation = 10;
-        }else{
-            //WIN! Do something here...
-        }
-
-        render();
-    }
-
-    public void render(){
-        arrow.setRotation(rotation);
-    }
-
-    public void startGame(){
-    }
-
-
 }

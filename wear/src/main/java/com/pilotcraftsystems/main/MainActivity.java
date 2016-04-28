@@ -11,6 +11,8 @@ import com.pilotcraftsystems.games.FindTheBeetActivity;
  * MainActivity
  *
  * @Author Chris Minnig, Dutch Clark, Kristopher Rollert, and Damian Ugalde
+ * @date 2016-04-20
+ * @version 1.1
  */
 public class MainActivity extends WearableActivity {
 
@@ -33,6 +35,26 @@ public class MainActivity extends WearableActivity {
     @Override
     public void onResume(){
         super.onResume();
+        heartRateReader = new HeartRateReader(this);
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        heartRateReader.destroy();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        heartRateReader.destroy();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        heartRateReader.destroy();
+    }
+
 
 }
