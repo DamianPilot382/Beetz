@@ -14,8 +14,14 @@ public class ColorUnitTest {
         assertEquals(255,new ColorChanger(100,60,80).testingUpdateRGB(80).getRed());
         assertEquals(255,new ColorChanger(100,60,80).testingUpdateRGB(80).getBlue());
     }
-
+    @Test
     public void  testRGBLess() throws Exception{
-        assertEquals();
+        assertEquals(89,new ColorChanger(100,60,80).testingUpdateRGB(67).getRed());
+        assertEquals(255,new ColorChanger(100,60,80).testingUpdateRGB(67).getBlue());
+    }
+    @Test
+    public void  testRGBMore() throws Exception{
+        assertEquals(255,new ColorChanger(100,60,80).testingUpdateRGB(95).getRed());
+        assertEquals(64,new ColorChanger(100,60,80).testingUpdateRGB(95).getBlue());
     }
 }
