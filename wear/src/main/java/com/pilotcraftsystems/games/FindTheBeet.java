@@ -21,7 +21,7 @@ public class FindTheBeet implements Game {
 
     @Override
     public void update() {
-        findBGColor();
+
     }
 
     @Override
