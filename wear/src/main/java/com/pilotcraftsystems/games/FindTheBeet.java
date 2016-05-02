@@ -1,82 +1,75 @@
 package com.pilotcraftsystems.games;
 
-import android.graphics.Color;
+import android.support.wearable.view.BoxInsetLayout;
 import android.util.Log;
 
 /**
  * Created by 393359 on 4/21/16.
  */
-public class FindTheBeet implements Game {
+public class FindTheBeet {
 
-    private Color bgColor;
-    private boolean running;
     public static final String TAG = "FindTheBeet";
+    private int beetToFind;
+
+    private BoxInsetLayout bg;
+
+    public static final int BASE_HR = 80;
+    public static final int HR_RANDOMNESS = 20;
 
 
     public FindTheBeet(){
-        running = false;
-        bgColor = new Color();
-    }
-
-
-    @Override
-    public void update() {
+        beetToFind = (int) (Math.random() * HR_RANDOMNESS + BASE_HR);
 
     }
 
-    @Override
-    public void render() {
-
+    public String update(int heartRate){
+        return updateRGB(heartRate, 60, 120, beetToFind);
     }
 
-    @Override
-    public void loop() {
-        long lastTime = System.nanoTime();
-        double amountOfTicks = 60.0;
-        double ns = 1000000000 / amountOfTicks;
-        double delta = 0;
-        long timer = System.currentTimeMillis();
-        int frames = 0;
-        while(running){
-            long now = System.nanoTime();
-            delta += (now - lastTime) / ns;
-            lastTime = now;
-            while(delta >= 1){
-                update();
-                delta--;
-            }
-            if(running)
-                render();
-            frames++;
-
-            if(System.currentTimeMillis() - timer > 1000){
-                timer += 1000;
-
-                //Printer
-                Log.i(TAG, Integer.toString(frames));
-            }
+    public static String updateRGB(int heartBeet,int min, int max, int target){
+        double range;
+        int red=255;
+        int blue=255;
+        heartBeet= clamp(heartBeet,min,max);
+        //if the beat hits the target
+        if(heartBeet==target){
+            //max red and blue
+            red=255;
+            blue=255;
+            Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
+            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
         }
-        stop();
+        //if the beat is below the target...
+        else if(heartBeet<target){
+            range=target-min;
+            //remove some red
+            red= (int)(((heartBeet-min)/range)*255);
+            blue=255;
+            Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
+            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
+        }
+        //if the beat is above the target...
+        else{
+            range=max-target;
+            red=255;
+            //remove some blue
+            blue=(int)(((range-(heartBeet-target))/range)*255);
+            Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
+            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
+
+        }
     }
 
-    @Override
-    public boolean isRunning() {
-        return running;
-    }
-
-    @Override
-    public void start() {
-        running = true;
-        loop();
-    }
-
-    @Override
-    public void stop() {
-        running = false;
-    }
-
-    public void findBGColor(int heartBeet){
-
+    public static int clamp(int value, int min, int max){
+        if(value>max){
+            return max;
+        }
+        else if(value<min){
+            return min;
+        }
+        else{
+            return value;
+        }
     }
 
 }
