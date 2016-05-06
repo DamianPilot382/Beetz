@@ -14,7 +14,7 @@ public class ColorChanger {
     public static final int MIN_RGB=0;
     private static int red;
     private static int blue;
-    public final String TAG= "IMPORTANT INFO";
+    public static final String TAG= "IMPORTANT INFO";
     public ColorChanger(int max, int min, int target){
     this.max=max;
         this.min=min;
@@ -30,12 +30,14 @@ public class ColorChanger {
         int blue=255;
         heartBeet= clamp(heartBeet,min,max);
         //if the beat hits the target
+        String res = "";
         if(heartBeet==target){
             //max red and blue
             red=255;
             blue=255;
             Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
-            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
+            res = "" + red + blue;
+            return res;
         }
         //if the beat is below the target...
         else if(heartBeet<target){
@@ -44,7 +46,8 @@ public class ColorChanger {
             red= (int)(((heartBeet-min)/range)*MAX_RGB);
              blue=255;
             Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
-            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
+            res = "" + red + blue;
+            return res;
         }
         //if the beat is above the target...
         else{
@@ -53,8 +56,8 @@ public class ColorChanger {
             //remove some blue
              blue=(int)(((range-(heartBeet-target))/range)*MAX_RGB);
             Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
-            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
-
+            res = "" + red + blue;
+            return res;
         }
     }
    /* public ColorChanger testingUpdateRGB(int heartBeet){

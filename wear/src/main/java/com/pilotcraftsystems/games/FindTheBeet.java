@@ -37,7 +37,7 @@ public class FindTheBeet {
             red=255;
             blue=255;
             Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
-            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
+            return red + "-" + blue;
         }
         //if the beat is below the target...
         else if(heartBeet<target){
@@ -46,7 +46,7 @@ public class FindTheBeet {
             red= (int)(((heartBeet-min)/range)*255);
             blue=255;
             Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
-            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
+            return red + "-" + blue;
         }
         //if the beat is above the target...
         else{
@@ -55,7 +55,7 @@ public class FindTheBeet {
             //remove some blue
             blue=(int)(((range-(heartBeet-target))/range)*255);
             Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
-            return ""+ Integer.toHexString(red)+Integer.toHexString(0)+Integer.toHexString(blue);
+            return red + "-" + blue;
 
         }
     }
