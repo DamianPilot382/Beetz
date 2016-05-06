@@ -9,20 +9,21 @@ import android.util.Log;
 public class FindTheBeet {
 
     public static final String TAG = "FindTheBeet";
-    private int beetToFind;
+    public static int beetToFind;
 
     private BoxInsetLayout bg;
 
-    public static final int BASE_HR = 80;
-    public static final int HR_RANDOMNESS = 20;
+    public static final int BASE_HR = 70;
+    public static final int HR_RANDOMNESS = 40;
 
 
     public FindTheBeet(){
-        beetToFind = (int) (Math.random() * HR_RANDOMNESS + BASE_HR);
+        beetSet();
 
     }
 
     public String update(int heartRate){
+
         return updateRGB(heartRate, 60, 120, beetToFind);
     }
 
@@ -59,6 +60,11 @@ public class FindTheBeet {
 
         }
     }
+
+    public void beetSet(){
+        beetToFind = (int) (Math.random() * HR_RANDOMNESS + BASE_HR);
+    }
+
 
     public static int clamp(int value, int min, int max){
         if(value>max){

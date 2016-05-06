@@ -47,6 +47,9 @@ public class FindTheBeetActivity extends WearableActivity {
                                 int blue = Integer.parseInt(color.substring(color.indexOf("-") + 1));
                                 bg.setBackgroundColor(Color.rgb(red, 0, blue));
                                 mHeartRate.setText((int)(event.values[0]) + "");
+                                if(event.values[0]==findTheBeet.beetToFind){
+                                    findTheBeet.beetSet();
+                                }
                             }
                     }else {
                         Log.i(TAG, "Not a heart rate sensor.");
