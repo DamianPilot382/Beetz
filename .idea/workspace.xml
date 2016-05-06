@@ -21,40 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e84972-4398-4abc-90b4-3a12fcf0611a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_drive_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_drive_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_22_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/wearable_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/wearable_1_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/wearmenu_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/wearmenu_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.iml" afterPath="$PROJECT_DIR$/mobile/mobile.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/ColorChanger.java" afterPath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/ColorChanger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java" afterPath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/wear.iml" afterPath="$PROJECT_DIR$/wear/wear.iml" />
     </list>
     <ignored path="Beetz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,8 +55,8 @@
       <file leaf-file-name="FindTheBeet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22782037">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.7864184">
+              <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -3393,7 +3361,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461861591733</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Francis X. Clampazzo, better known as Clamps, is one of the recurring antagonists in Futurama. He is robot who is a part of the Robot Mafia and works for Donbot.&#10;&#10;Clamps is a bronze colored Robot, with a slender body and small door on his torso. He has a row of rivets on the right side of his face, appearing like a scar or stitches. Clamps' personality is paranoid, sarcastic, and highly aggressive, reflecting that of Joe Pesci's character Tommy DeVito in the film Goodfellas, as well as his high pitch, high tempo voice.&#10;&#10;Clamps loves to use his own clamps at &quot;every opportunity&quot; but his clamps are often unnecessary in any given situation. In spite of his love for his clamps, in Bender Gets Made, when they are needed, he is antagonized by Joey Mousepad when Joey suggests Clamps actually uses them. In The Silence Of The Clamps, he starts to work in Planet Express after Bender is forced to go into the witness protection program. Clamps may have been a high ranked member or favoured by the Donbot given that in Bender Gets Made Donbot suggested giving Bender a pair of clamps causing Clamps to mumble angrily&#10;&#10;The crew starts to trust him completely except Zoidberg, who thinks that he will also be replaced by Francis due to the fact that Francis can cut and clamp while Zoidberg can only cut. Francis goes into the moon's western border and finds Bender, who is actually Billy West. Francis tries to murder Billy but Zoidberg prevents him from doing so and they fight. Francis tries to kill Zoidberg by crushing his skull but Zoidberg gains the upper hand and defeats Francis by cutting off his clamps. Voiced by Maurice LaMarche.">
+      <created>1462548545830</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1462548545830</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3519,7 +3493,8 @@
     <MESSAGE value="I'll GIVE HIM THE CLAMPS, THE CLAMPS!" />
     <MESSAGE value="Test is broken&#10;" />
     <MESSAGE value="Everything works now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Everything works now" />
+    <MESSAGE value="Francis X. Clampazzo, better known as Clamps, is one of the recurring antagonists in Futurama. He is robot who is a part of the Robot Mafia and works for Donbot.&#10;&#10;Clamps is a bronze colored Robot, with a slender body and small door on his torso. He has a row of rivets on the right side of his face, appearing like a scar or stitches. Clamps' personality is paranoid, sarcastic, and highly aggressive, reflecting that of Joe Pesci's character Tommy DeVito in the film Goodfellas, as well as his high pitch, high tempo voice.&#10;&#10;Clamps loves to use his own clamps at &quot;every opportunity&quot; but his clamps are often unnecessary in any given situation. In spite of his love for his clamps, in Bender Gets Made, when they are needed, he is antagonized by Joey Mousepad when Joey suggests Clamps actually uses them. In The Silence Of The Clamps, he starts to work in Planet Express after Bender is forced to go into the witness protection program. Clamps may have been a high ranked member or favoured by the Donbot given that in Bender Gets Made Donbot suggested giving Bender a pair of clamps causing Clamps to mumble angrily&#10;&#10;The crew starts to trust him completely except Zoidberg, who thinks that he will also be replaced by Francis due to the fact that Francis can cut and clamp while Zoidberg can only cut. Francis goes into the moon's western border and finds Bender, who is actually Billy West. Francis tries to murder Billy but Zoidberg prevents him from doing so and they fight. Francis tries to kill Zoidberg by crushing his skull but Zoidberg gains the upper hand and defeats Francis by cutting off his clamps. Voiced by Maurice LaMarche." />
+    <option name="LAST_COMMIT_MESSAGE" value="Francis X. Clampazzo, better known as Clamps, is one of the recurring antagonists in Futurama. He is robot who is a part of the Robot Mafia and works for Donbot.&#10;&#10;Clamps is a bronze colored Robot, with a slender body and small door on his torso. He has a row of rivets on the right side of his face, appearing like a scar or stitches. Clamps' personality is paranoid, sarcastic, and highly aggressive, reflecting that of Joe Pesci's character Tommy DeVito in the film Goodfellas, as well as his high pitch, high tempo voice.&#10;&#10;Clamps loves to use his own clamps at &quot;every opportunity&quot; but his clamps are often unnecessary in any given situation. In spite of his love for his clamps, in Bender Gets Made, when they are needed, he is antagonized by Joey Mousepad when Joey suggests Clamps actually uses them. In The Silence Of The Clamps, he starts to work in Planet Express after Bender is forced to go into the witness protection program. Clamps may have been a high ranked member or favoured by the Donbot given that in Bender Gets Made Donbot suggested giving Bender a pair of clamps causing Clamps to mumble angrily&#10;&#10;The crew starts to trust him completely except Zoidberg, who thinks that he will also be replaced by Francis due to the fact that Francis can cut and clamp while Zoidberg can only cut. Francis goes into the moon's western border and finds Bender, who is actually Billy West. Francis tries to murder Billy but Zoidberg prevents him from doing so and they fight. Francis tries to kill Zoidberg by crushing his skull but Zoidberg gains the upper hand and defeats Francis by cutting off his clamps. Voiced by Maurice LaMarche." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3915,8 +3890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22782037">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.7864184">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
           <folding />
         </state>
       </provider>
