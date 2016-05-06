@@ -21,30 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e84972-4398-4abc-90b4-3a12fcf0611a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wear/src/main/res/layout/beet_test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/wearable_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/wearable_1_3_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/mobile.iml" afterPath="$PROJECT_DIR$/mobile/mobile.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java" afterPath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeetActivity.java" afterPath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeetActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/main/HeartRateReader.java" afterPath="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/main/HeartRateReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wear/wear.iml" afterPath="$PROJECT_DIR$/wear/wear.iml" />
     </list>
     <ignored path="Beetz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,24 +52,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindTheBeet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FindTheBeet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="e#1718#1719#0" expanded="true" />
-                <element signature="e#1794#1795#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.7864184">
+              <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindTheBeetActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindTheBeetActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeetActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16473317">
-              <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -107,31 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeartRateReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/main/HeartRateReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ColorChanger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/ColorChanger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="39" selection-end-column="23" />
+              <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -147,19 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beet_test.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/beet_test.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wear/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -172,14 +124,14 @@
       </file>
       <file leaf-file-name="find_the_beat.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/find_the_beat.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -2346,7 +2298,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5846620586000" />
+        <entry key="$PROJECT_DIR$" value="5850190068000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2763,8 +2715,8 @@
         <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/MakeItBeet.java" />
         <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/BeetzClicker.java" />
         <option value="$PROJECT_DIR$/mobile/build.gradle" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/Game.java" />
         <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeatActivity.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/wear/src/main/res/layout/activity_main copy.xml" />
         <option value="$PROJECT_DIR$/wear/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/wear/src/main/res/layout/menu_layout.xml" />
@@ -2775,13 +2727,13 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/wear/build.gradle" />
         <option value="$PROJECT_DIR$/wear/src/main/java/UnitTest/ColorUnitTest.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/main/HeartRateReader.java" />
         <option value="$PROJECT_DIR$/wear/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/ColorChanger.java" />
         <option value="$PROJECT_DIR$/wear/src/main/res/layout/find_the_beat.xml" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/main/HeartRateReader.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/Game.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java" />
         <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeetActivity.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java" />
       </list>
     </option>
   </component>
@@ -2816,8 +2768,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
@@ -2827,19 +2779,9 @@
               <option name="myItemId" value="Beetz" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Beetz" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wear" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2850,32 +2792,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="wear" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beetz" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wear" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2894,6 +2810,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="pilotcraftsystems" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2925,6 +2845,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wear" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beetz" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3152,6 +3086,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -3418,7 +3361,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461861591733</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Francis X. Clampazzo, better known as Clamps, is one of the recurring antagonists in Futurama. He is robot who is a part of the Robot Mafia and works for Donbot.&#10;&#10;Clamps is a bronze colored Robot, with a slender body and small door on his torso. He has a row of rivets on the right side of his face, appearing like a scar or stitches. Clamps' personality is paranoid, sarcastic, and highly aggressive, reflecting that of Joe Pesci's character Tommy DeVito in the film Goodfellas, as well as his high pitch, high tempo voice.&#10;&#10;Clamps loves to use his own clamps at &quot;every opportunity&quot; but his clamps are often unnecessary in any given situation. In spite of his love for his clamps, in Bender Gets Made, when they are needed, he is antagonized by Joey Mousepad when Joey suggests Clamps actually uses them. In The Silence Of The Clamps, he starts to work in Planet Express after Bender is forced to go into the witness protection program. Clamps may have been a high ranked member or favoured by the Donbot given that in Bender Gets Made Donbot suggested giving Bender a pair of clamps causing Clamps to mumble angrily&#10;&#10;The crew starts to trust him completely except Zoidberg, who thinks that he will also be replaced by Francis due to the fact that Francis can cut and clamp while Zoidberg can only cut. Francis goes into the moon's western border and finds Bender, who is actually Billy West. Francis tries to murder Billy but Zoidberg prevents him from doing so and they fight. Francis tries to kill Zoidberg by crushing his skull but Zoidberg gains the upper hand and defeats Francis by cutting off his clamps. Voiced by Maurice LaMarche.">
+      <created>1462548545830</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1462548545830</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3463,7 +3412,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="23" width="1856" height="1057" extended-state="6" />
+    <frame x="64" y="23" width="1856" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3471,7 +3420,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51222104" sideWeight="0.4911797" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51222104" sideWeight="0.4911797" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5642933" sideWeight="0.5088203" order="9" side_tool="true" content_ui="tabs" />
@@ -3491,7 +3441,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30705622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -3544,7 +3493,8 @@
     <MESSAGE value="I'll GIVE HIM THE CLAMPS, THE CLAMPS!" />
     <MESSAGE value="Test is broken&#10;" />
     <MESSAGE value="Everything works now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Everything works now" />
+    <MESSAGE value="Francis X. Clampazzo, better known as Clamps, is one of the recurring antagonists in Futurama. He is robot who is a part of the Robot Mafia and works for Donbot.&#10;&#10;Clamps is a bronze colored Robot, with a slender body and small door on his torso. He has a row of rivets on the right side of his face, appearing like a scar or stitches. Clamps' personality is paranoid, sarcastic, and highly aggressive, reflecting that of Joe Pesci's character Tommy DeVito in the film Goodfellas, as well as his high pitch, high tempo voice.&#10;&#10;Clamps loves to use his own clamps at &quot;every opportunity&quot; but his clamps are often unnecessary in any given situation. In spite of his love for his clamps, in Bender Gets Made, when they are needed, he is antagonized by Joey Mousepad when Joey suggests Clamps actually uses them. In The Silence Of The Clamps, he starts to work in Planet Express after Bender is forced to go into the witness protection program. Clamps may have been a high ranked member or favoured by the Donbot given that in Bender Gets Made Donbot suggested giving Bender a pair of clamps causing Clamps to mumble angrily&#10;&#10;The crew starts to trust him completely except Zoidberg, who thinks that he will also be replaced by Francis due to the fact that Francis can cut and clamp while Zoidberg can only cut. Francis goes into the moon's western border and finds Bender, who is actually Billy West. Francis tries to murder Billy but Zoidberg prevents him from doing so and they fight. Francis tries to kill Zoidberg by crushing his skull but Zoidberg gains the upper hand and defeats Francis by cutting off his clamps. Voiced by Maurice LaMarche." />
+    <option name="LAST_COMMIT_MESSAGE" value="Francis X. Clampazzo, better known as Clamps, is one of the recurring antagonists in Futurama. He is robot who is a part of the Robot Mafia and works for Donbot.&#10;&#10;Clamps is a bronze colored Robot, with a slender body and small door on his torso. He has a row of rivets on the right side of his face, appearing like a scar or stitches. Clamps' personality is paranoid, sarcastic, and highly aggressive, reflecting that of Joe Pesci's character Tommy DeVito in the film Goodfellas, as well as his high pitch, high tempo voice.&#10;&#10;Clamps loves to use his own clamps at &quot;every opportunity&quot; but his clamps are often unnecessary in any given situation. In spite of his love for his clamps, in Bender Gets Made, when they are needed, he is antagonized by Joey Mousepad when Joey suggests Clamps actually uses them. In The Silence Of The Clamps, he starts to work in Planet Express after Bender is forced to go into the witness protection program. Clamps may have been a high ranked member or favoured by the Donbot given that in Bender Gets Made Donbot suggested giving Bender a pair of clamps causing Clamps to mumble angrily&#10;&#10;The crew starts to trust him completely except Zoidberg, who thinks that he will also be replaced by Francis due to the fact that Francis can cut and clamp while Zoidberg can only cut. Francis goes into the moon's western border and finds Bender, who is actually Billy West. Francis tries to murder Billy but Zoidberg prevents him from doing so and they fight. Francis tries to kill Zoidberg by crushing his skull but Zoidberg gains the upper hand and defeats Francis by cutting off his clamps. Voiced by Maurice LaMarche." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3553,6 +3503,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/find_the_beat.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3575,33 +3544,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/find_the_beat.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/menu_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/menu_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/drawable/texview_design.xml">
@@ -3662,13 +3631,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/find_the_beat.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/main/MainActivity.java">
@@ -3693,13 +3662,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/find_the_beat.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/BeetzClicker.java">
@@ -3766,23 +3735,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/menu_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2641509">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/drawable/texview_design.xml">
@@ -3839,17 +3808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/doge.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6486486">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18400876">
@@ -3864,21 +3822,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/find_the_beat.xml">
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/main/HeartRateReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="0.36911282">
+          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/find_the_beat.xml">
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/ColorChanger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="39" selection-end-column="23" />
+          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -3899,29 +3864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/beet_test.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/main/HeartRateReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -3934,21 +3880,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java">
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeetActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-          </folding>
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeetActivity.java">
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/com/pilotcraftsystems/games/FindTheBeet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16473317">
-          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.7864184">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
           <folding />
         </state>
       </provider>
