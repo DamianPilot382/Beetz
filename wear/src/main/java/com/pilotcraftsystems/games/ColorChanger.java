@@ -62,7 +62,7 @@ public class ColorChanger {
     }
    /* public ColorChanger testingUpdateRGB(int heartBeet){
         double range;
-        heartBeet= clamp(heartBeet,min,max);
+        heartBeet= THE_CLAMPS(heartBeet,min,max);
         //if the beat hits the target
         if(heartBeet==target){
             //max red and blue

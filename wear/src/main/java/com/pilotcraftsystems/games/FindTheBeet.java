@@ -30,7 +30,7 @@ public class FindTheBeet {
         double range;
         int red=255;
         int blue=255;
-        heartBeet= clamp(heartBeet,min,max);
+        heartBeet= THE_CLAMPS(heartBeet,min,max);
         //if the beat hits the target
         if(heartBeet==target){
             //max red and blue
@@ -60,7 +60,8 @@ public class FindTheBeet {
         }
     }
 
-    public static int clamp(int value, int min, int max){
+    public static int THE_CLAMPS(int value, int min, int max){
+        //THE CLAMPS
         if(value>max){
             return max;
         }
