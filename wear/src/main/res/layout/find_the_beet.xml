@@ -26,6 +26,17 @@
             android:background="@drawable/texview_design"
             app:layout_box="all" />
 
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="xx"
+            android:textSize="20sp"
+            android:gravity="center"
+
+            android:background="@drawable/texview_design"
+            android:layout_gravity="center_horizontal"/>
+
     </FrameLayout>
 
 

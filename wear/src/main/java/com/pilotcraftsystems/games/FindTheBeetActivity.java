@@ -27,6 +27,7 @@ public class FindTheBeetActivity extends WearableActivity {
     TextView mHeartRate;
     FindTheBeet findTheBeet;
     HeartRateReader heartRateReader;
+    TextView mCurrentHeart;
 
     private FrameLayout background;
 
@@ -44,6 +45,8 @@ public class FindTheBeetActivity extends WearableActivity {
             findTheBeet = new FindTheBeet();
             mHeartRate = (TextView) findViewById(R.id.heartText);
             background = (FrameLayout) findViewById(R.id.container);
+            mCurrentHeart=(TextView) findViewById(R.id.target);
+            mCurrentHeart.setText(""+findTheBeet.getBeetToFind());
 
             heartRateReader = new HeartRateReader(this){
                 /**
@@ -59,6 +62,7 @@ public class FindTheBeetActivity extends WearableActivity {
                                 if(Math.abs(event.values[0] - findTheBeet.getBeetToFind()) <= BEET_FUDGE){
                                     background.setBackgroundColor(Color.GREEN);
                                     findTheBeet.newBeet();
+                                    mCurrentHeart.setText(""+findTheBeet.getBeetToFind());
                                 }else {
                                     String color = findTheBeet.update((int) (event.values[0]));
                                     int red = Integer.parseInt(color.substring(0, color.indexOf("-")));
@@ -66,6 +70,7 @@ public class FindTheBeetActivity extends WearableActivity {
                                     background.setBackgroundColor(Color.rgb(red, 0, blue));
                                 }
                                 mHeartRate.setText((int) (event.values[0]) + "");
+
 
                             }
                     }else {
