@@ -5,7 +5,6 @@
     <uses-feature android:name="android.hardware.type.watch" />
 
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.BODY_SENSORS"/>
 
     <application
@@ -19,25 +18,28 @@
             android:required="false" />
 
         <activity
-            android:name="com.pilotcraftsystems.games.FindTheBeetActivity"
-            android:label="@string/find_the_beet"
-            android:theme="@android:style/Theme.DeviceDefault.Light">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name="com.pilotcraftsystems.main.MainActivity"
+            android:name=".SplashScreen"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.DeviceDefault.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+
+
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.pilotcraftsystems.games.FindTheBeetActivity"
+            android:label="@string/find_the_beet"
+            android:theme="@android:style/Theme.DeviceDefault.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
 
 
 

@@ -21,7 +21,7 @@ import android.util.Log;
  * @date 2016-05-10
  */
 public class HeartRateReader implements SensorEventListener {
-
+public static boolean isNull=false;
     public static final String TAG = "HeartRateReader";
     private SensorManager mSensorManager;
     private Sensor mHeartRateSensor;
@@ -36,6 +36,9 @@ public class HeartRateReader implements SensorEventListener {
 
         mSensorManager = ((SensorManager) activity.getSystemService(activity.SENSOR_SERVICE));
         mHeartRateSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_HEART_RATE);
+        if(mHeartRateSensor.equals(null)){
+            isNull=true;
+        }
         mSensorManager.registerListener(this, mHeartRateSensor, SensorManager.SENSOR_DELAY_NORMAL);
         Log.i(TAG, "LISTENER REGISTERED.");
 

@@ -1,9 +1,12 @@
 package com.pilotcraftsystems.games;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.wearable.activity.WearableActivity;
 import android.util.Log;
 import android.view.View;
@@ -28,10 +31,13 @@ public class FindTheBeetActivity extends WearableActivity {
     TextView mHeartRate;
     FindTheBeet findTheBeet;
     HeartRateReader heartRateReader;
+    TextView mCurrentHeart;
 
     private FrameLayout background;
 
     public static final int BEET_FUDGE = 5;
+    private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 34;
+    public static final String TAG = "FindTheBeetActivity";
 
     /**
      * Called when the activity is created. Initializes all the instance variables.
@@ -45,6 +51,12 @@ public class FindTheBeetActivity extends WearableActivity {
             findTheBeet = new FindTheBeet();
             mHeartRate = (TextView) findViewById(R.id.heartText);
             background = (FrameLayout) findViewById(R.id.container);
+            mCurrentHeart=(TextView) findViewById(R.id.target);
+            mCurrentHeart.setText(""+findTheBeet.getBeetToFind());
+
+            if(!checkPermissions()){
+                requestPermissions();
+            }
 
             heartRateReader = new HeartRateReader(this){
                 /**
@@ -66,6 +78,7 @@ public class FindTheBeetActivity extends WearableActivity {
                                 if(Math.abs(event.values[0] - findTheBeet.getBeetToFind()) <= BEET_FUDGE){
                                     background.setBackgroundColor(Color.GREEN);
                                     findTheBeet.newBeet();
+                                    mCurrentHeart.setText(""+findTheBeet.getBeetToFind());
                                 }else {
                                     String color = findTheBeet.update((int) (event.values[0]));
                                     int red = Integer.parseInt(color.substring(0, color.indexOf("-")));
@@ -73,6 +86,7 @@ public class FindTheBeetActivity extends WearableActivity {
                                     background.setBackgroundColor(Color.rgb(red, 0, blue));
                                 }
                                 mHeartRate.setText((int) (event.values[0]) + "");
+
 
                             }
                     }else {
@@ -82,6 +96,34 @@ public class FindTheBeetActivity extends WearableActivity {
 
         };
 
+    }
+
+    private boolean checkPermissions() {
+        int permissionState = ActivityCompat.checkSelfPermission(this,
+                Manifest.permission.ACCESS_FINE_LOCATION);
+        return permissionState == PackageManager.PERMISSION_GRANTED;
+    }
+
+    private void requestPermissions() {
+        boolean shouldProvideRationale =
+                ActivityCompat.shouldShowRequestPermissionRationale(this,
+                        Manifest.permission.BODY_SENSORS);
+
+        if(shouldProvideRationale){
+        ActivityCompat.requestPermissions(FindTheBeetActivity.this,
+                new String[]{Manifest.permission.BODY_SENSORS},
+                REQUEST_PERMISSIONS_REQUEST_CODE);
+
+
+        } else {
+            Log.i(TAG, "Requesting permission");
+            // Request permission. It's possible this can be auto answered if device policy
+            // sets the permission in a given state or the user denied the permission
+            // previously and checked "Never ask again".
+            ActivityCompat.requestPermissions(FindTheBeetActivity.this,
+                    new String[]{Manifest.permission.BODY_SENSORS},
+                    REQUEST_PERMISSIONS_REQUEST_CODE);
+        }
     }
 
     /**
