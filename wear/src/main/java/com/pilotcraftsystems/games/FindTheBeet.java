@@ -8,7 +8,7 @@ import android.util.Log;
  * Class implements the logic for the Find The Beet game. Works in conjunction with the
  * {@code FindTheBeetActivity} class.
  *
- * @Author Chris Minnig, Dutch Clark, Kristopher Rollert, and Damian Ugalde
+ * @Author Damian Ugalde, Chris Minnig, Dutch Clark, and Kristopher Rollert
  * @date 2016-05-10
  */
 public class FindTheBeet {
