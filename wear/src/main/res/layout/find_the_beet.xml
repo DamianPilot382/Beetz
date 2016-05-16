@@ -19,12 +19,22 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:text="100"
-            android:textColor="#262626"
+            android:textColor="@color/changeable"
             android:textSize="50dp"
             android:gravity="center"
             android:layout_gravity="center_vertical|center_horizontal"
             android:background="@drawable/texview_design"
-            app:layout_box="all" />
+            app:layout_box="all"
+            />
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
 
     </FrameLayout>
 

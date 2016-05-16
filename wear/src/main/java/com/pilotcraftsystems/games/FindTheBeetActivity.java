@@ -6,6 +6,7 @@ import android.hardware.SensorEvent;
 import android.os.Bundle;
 import android.support.wearable.activity.WearableActivity;
 import android.util.Log;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.TextView;
@@ -54,6 +55,12 @@ public class FindTheBeetActivity extends WearableActivity {
                 @Override
                 public void onSensorChanged(SensorEvent event) {
                     if(event.sensor.getType() == Sensor.TYPE_HEART_RATE) {
+
+                        if(findViewById(R.id.loading_spinner).getVisibility() != View.GONE){
+                            findViewById(R.id.loading_spinner).setVisibility(View.GONE);
+                            ((TextView) findViewById(R.id.heartText)).setTextColor(Color.rgb(38,38,38));
+                        }
+
                         Log.i(TAG, "Heart rate change: " + (int) event.values[0]);
                             if(event.values[0] != 0) {
                                 if(Math.abs(event.values[0] - findTheBeet.getBeetToFind()) <= BEET_FUDGE){
