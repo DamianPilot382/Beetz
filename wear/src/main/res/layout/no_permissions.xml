@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pilotcraftsystems.main.NoPermissionActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container">
+
+        <TextView
+            android:id="@+id/heartText"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="100"
+            android:textColor="@color/changeable"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/texview_design"
+            app:layout_box="all"
+            />
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:gravity="center"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/texview_design"
+            app:layout_box="all"
+            />
+
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:gravity="center"
+
+            android:background="@drawable/texview_design"
+            android:layout_gravity="center_horizontal"/>
+
+    </FrameLayout>
+
+
+
+</android.support.wearable.view.BoxInsetLayout>

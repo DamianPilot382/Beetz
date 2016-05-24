@@ -16,14 +16,14 @@ public class FindTheBeet {
     public static final String TAG = "FindTheBeet";
     private int beetToFind;
 
-    public static final int BASE_HR = 80;
-    public static final int HR_RANDOMNESS = 20;
+    public static final int BASE_HR = 60;
+    public static final int HR_RANDOMNESS = 50;
 
     /**
      * Creates a new Find The Beet game, assigning a new beet to be found.
      */
     public FindTheBeet(){
-        beetToFind = 70;//(int) (Math.random() * HR_RANDOMNESS + BASE_HR);
+        beetToFind = (int) (Math.random() * HR_RANDOMNESS + BASE_HR);
     }
 
     /**

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pilotcraftsystems.main.MainActivity"
+    tools:context="com.pilotcraftsystems.main.SplashScreen"
     tools:deviceIds="wear">
 
     <FrameLayout
@@ -34,13 +34,14 @@
             android:indeterminate="true"
             android:gravity="center"
             android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/texview_design"
+            app:layout_box="all"
             />
 
         <TextView
             android:id="@+id/target"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:text="xx"
             android:textSize="20sp"
             android:gravity="center"
 

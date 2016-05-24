@@ -1,6 +1,8 @@
 package com.pilotcraftsystems.games;
 
 import android.Manifest;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.hardware.Sensor;
@@ -12,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.pilotcraftsystems.main.HeartRateReader;
@@ -28,14 +31,16 @@ import com.pilotcraftsystems.main.R;
  */
 public class FindTheBeetActivity extends WearableActivity {
 
-    TextView mHeartRate;
     FindTheBeet findTheBeet;
     HeartRateReader heartRateReader;
     TextView mCurrentHeart;
+    TextView mTarget;
+    ProgressBar loadingSpinner;
+    boolean showLoading;
 
     private FrameLayout background;
 
-    public static final int BEET_FUDGE = 5;
+    public static final int BEET_FUDGE = 2;
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 34;
     public static final String TAG = "FindTheBeetActivity";
 
@@ -49,13 +54,39 @@ public class FindTheBeetActivity extends WearableActivity {
             setContentView(R.layout.find_the_beet);
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
             findTheBeet = new FindTheBeet();
-            mHeartRate = (TextView) findViewById(R.id.heartText);
+            mCurrentHeart = (TextView) findViewById(R.id.heartText);
+            mTarget = (TextView) findViewById(R.id.target);
             background = (FrameLayout) findViewById(R.id.container);
-            mCurrentHeart=(TextView) findViewById(R.id.target);
-            mCurrentHeart.setText(""+findTheBeet.getBeetToFind());
+            loadingSpinner = (ProgressBar) findViewById(R.id.loading_spinner);
+            mTarget.setText(""+findTheBeet.getBeetToFind());
+
+            mCurrentHeart.setVisibility(View.GONE);
+            mTarget.setVisibility(View.GONE);
+
+            loadingSpinner.setVisibility(View.VISIBLE);
+
+            showLoading = true;
 
             if(!checkPermissions()){
                 requestPermissions();
+            }
+            if(!checkPermissions()){
+                AlertDialog.Builder builder = new AlertDialog.Builder(this.getApplicationContext());
+
+                builder.setTitle("Beetz");
+
+                builder.setMessage("Sorry, but you need to accept the permissions to use Beetz.")
+                        .setCancelable(false)
+                        .setPositiveButton("Close", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                finish();
+                                System.exit(0);
+                            }
+                        });
+
+                AlertDialog alertDialog = builder.create();
+                alertDialog.show();
+
             }
 
             heartRateReader = new HeartRateReader(this){
@@ -68,9 +99,12 @@ public class FindTheBeetActivity extends WearableActivity {
                 public void onSensorChanged(SensorEvent event) {
                     if(event.sensor.getType() == Sensor.TYPE_HEART_RATE) {
 
-                        if(findViewById(R.id.loading_spinner).getVisibility() != View.GONE){
+                        if(showLoading){
+                            showLoading = false;
                             findViewById(R.id.loading_spinner).setVisibility(View.GONE);
-                            ((TextView) findViewById(R.id.heartText)).setTextColor(Color.rgb(38,38,38));
+                            mCurrentHeart.setVisibility(View.VISIBLE);
+                            mTarget.setVisibility(View.VISIBLE);
+                            mCurrentHeart.setTextColor(Color.rgb(38,38,38));
                         }
 
                         Log.i(TAG, "Heart rate change: " + (int) event.values[0]);
@@ -85,7 +119,7 @@ public class FindTheBeetActivity extends WearableActivity {
                                     int blue = Integer.parseInt(color.substring(color.indexOf("-") + 1));
                                     background.setBackgroundColor(Color.rgb(red, 0, blue));
                                 }
-                                mHeartRate.setText((int) (event.values[0]) + "");
+                                mCurrentHeart.setText((int) (event.values[0]) + "");
 
 
                             }
@@ -95,6 +129,24 @@ public class FindTheBeetActivity extends WearableActivity {
             }
 
         };
+
+        if(!heartRateReader.hasHeartRateSensor()){
+            AlertDialog.Builder builder = new AlertDialog.Builder(this.getApplicationContext());
+
+            builder.setTitle("Beetz");
+
+            builder.setMessage("Sorry, but you need to have a heart rate sensor to use Beetz.")
+                    .setCancelable(false)
+                    .setPositiveButton("Close", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            finish();
+                            System.exit(0);
+                        }
+                    });
+
+            AlertDialog alertDialog = builder.create();
+            alertDialog.show();
+        }
 
     }
 
