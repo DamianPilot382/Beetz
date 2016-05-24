@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import com.pilotcraftsystems.main.HeartRateReader;
 import com.pilotcraftsystems.main.R;
+import com.pilotcraftsystems.main.SharedPreferencesThing;
 
 /**
  * FindTheBeetActivity
@@ -38,7 +39,12 @@ public class FindTheBeetActivity extends WearableActivity {
     ProgressBar loadingSpinner;
     boolean showLoading;
 
+    public SharedPreferencesThing _appPrefs;
+
+
     private FrameLayout background;
+    private int highScore;
+    private int score;
 
     public static final int BEET_FUDGE = 2;
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 34;
@@ -52,6 +58,7 @@ public class FindTheBeetActivity extends WearableActivity {
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.find_the_beet);
+            _appPrefs = new SharedPreferencesThing(getApplicationContext());
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
             findTheBeet = new FindTheBeet();
             mCurrentHeart = (TextView) findViewById(R.id.heartText);
@@ -59,6 +66,10 @@ public class FindTheBeetActivity extends WearableActivity {
             background = (FrameLayout) findViewById(R.id.container);
             loadingSpinner = (ProgressBar) findViewById(R.id.loading_spinner);
             mTarget.setText(""+findTheBeet.getBeetToFind());
+
+            highScore = Integer.parseInt(_appPrefs.getSmsBody());
+            score = 0;
+
 
             mCurrentHeart.setVisibility(View.GONE);
             mTarget.setVisibility(View.GONE);
@@ -113,6 +124,9 @@ public class FindTheBeetActivity extends WearableActivity {
                                     background.setBackgroundColor(Color.GREEN);
                                     findTheBeet.newBeet();
                                     mCurrentHeart.setText(""+findTheBeet.getBeetToFind());
+                                    if (score>highScore){
+                                        _appPrefs.saveSmsBody(highScore + "");
+                                    }
                                 }else {
                                     String color = findTheBeet.update((int) (event.values[0]));
                                     int red = Integer.parseInt(color.substring(0, color.indexOf("-")));
