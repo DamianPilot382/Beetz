@@ -65,7 +65,7 @@ public class FindTheBeetActivity extends WearableActivity {
             mTarget = (TextView) findViewById(R.id.target);
             background = (FrameLayout) findViewById(R.id.container);
             loadingSpinner = (ProgressBar) findViewById(R.id.loading_spinner);
-            mTarget.setText(""+findTheBeet.getBeetToFind());
+            mTarget.setText("" + findTheBeet.getBeetToFind());
 
             highScore = Integer.parseInt(_appPrefs.getSmsBody());
             score = 0;
@@ -73,6 +73,9 @@ public class FindTheBeetActivity extends WearableActivity {
 
             mCurrentHeart.setVisibility(View.GONE);
             mTarget.setVisibility(View.GONE);
+
+            mTarget.setText(score);
+
 
             loadingSpinner.setVisibility(View.VISIBLE);
 
@@ -86,7 +89,7 @@ public class FindTheBeetActivity extends WearableActivity {
 
                 builder.setTitle("Beetz");
 
-                builder.setMessage("Sorry, but you need to accept the permissions to use Beetz.")
+                builder.setMessage("Sorry, but YOU ARE A WORTHLESS PIG and have NO FRIENDS!")
                         .setCancelable(false)
                         .setPositiveButton("Close", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
@@ -123,8 +126,9 @@ public class FindTheBeetActivity extends WearableActivity {
                                 if(Math.abs(event.values[0] - findTheBeet.getBeetToFind()) <= BEET_FUDGE){
                                     background.setBackgroundColor(Color.GREEN);
                                     findTheBeet.newBeet();
-                                    mCurrentHeart.setText(""+findTheBeet.getBeetToFind());
-                                    if (score>highScore){
+                                    mTarget.setText(score);
+                                    mCurrentHeart.setText("" + findTheBeet.getBeetToFind());
+                                    if (score > highScore){
                                         _appPrefs.saveSmsBody(highScore + "");
                                     }
                                 }else {
