@@ -18,6 +18,7 @@ public class FindTheBeet {
 
     public static final int BASE_HR = 60;
     public static final int HR_RANDOMNESS = 50;
+    private double colorThreshold=1.25;
 
     /**
      * Creates a new Find The Beet game, assigning a new beet to be found.
@@ -67,17 +68,29 @@ public class FindTheBeet {
             return red + "-" + blue;
         }
         //if the beat is below the target...
+        else if(heartBeet<target &&heartBeet>min*1.25){
+            red=0;
+            blue=255;
+            Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
+            return red + "-" + blue;
+        }
+        else if(heartBeet>target &&heartBeet<max*.75){
+            red=255;
+            blue=0;
+            Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
+            return red + "-" + blue;
+        }
         else if(heartBeet<target){
-            range=target-min;
+            range=target-(min*1.25);
             //remove some red
-            red= (int)(((heartBeet-min)/range)*255);
+            red= (int)(((heartBeet-(min*1.25))/range)*255);
             blue=255;
             Log.i(TAG,"The red value is: "+red+", The blue value is: "+blue);
             return red + "-" + blue;
         }
         //if the beat is above the target...
         else{
-            range=max-target;
+            range=(max*.75)-target;
             red=255;
             //remove some blue
             blue=(int)(((range-(heartBeet-target))/range)*255);
