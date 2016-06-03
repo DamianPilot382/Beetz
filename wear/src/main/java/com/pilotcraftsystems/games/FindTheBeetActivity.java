@@ -85,21 +85,7 @@ public class FindTheBeetActivity extends WearableActivity {
                 requestPermissions();
             }
             if(!checkPermissions()){
-                AlertDialog.Builder builder = new AlertDialog.Builder(this.getApplicationContext());
-
-                builder.setTitle("Beetz");
-
-                builder.setMessage("Sorry, but YOU ARE A WORTHLESS PIG and have NO FRIENDS!")
-                        .setCancelable(false)
-                        .setPositiveButton("Close", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                finish();
-                                System.exit(0);
-                            }
-                        });
-
-                AlertDialog alertDialog = builder.create();
-                alertDialog.show();
+                String doge = "Doge";
 
             }
 

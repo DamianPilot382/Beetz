@@ -17,7 +17,7 @@ import com.pilotcraftsystems.games.FindTheBeetActivity;
 public class SplashScreen extends WearableActivity {
 
     private static final String TAG = "SplashActivity";
-    public static final int SPLASH_TIME_OUT = 3000;
+    public static final int SPLASH_TIME_OUT = 10000;
 
     /**
      * Called when the activity is first created.
@@ -28,7 +28,10 @@ public class SplashScreen extends WearableActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        //getActionBar().setDisplayHomeAsUpEnabled(false);
 
+        /*AssetTransfer m = new AssetTransfer(this);
+        m.go();*/
         /**
          * Show splash screen with a timer.
          */
@@ -40,7 +43,6 @@ public class SplashScreen extends WearableActivity {
                 finish();
             }
         }, SPLASH_TIME_OUT);
-
 
 
     }

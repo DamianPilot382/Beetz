@@ -1,11 +1,7 @@
 package com.pilotcraftsystems.main;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.wearable.activity.WearableActivity;
-
-import com.pilotcraftsystems.games.FindTheBeetActivity;
 
 /**
  * MainActivity
@@ -28,19 +24,7 @@ public class NoPermissionActivity extends WearableActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.no_permissions);
 
-
-        /**
-         * Show splash screen with a timer.
-         */
-        new Handler().postDelayed(new Runnable(){
-            @Override
-            public void run(){
-                Intent i = new Intent(NoPermissionActivity.this, FindTheBeetActivity.class);
-                startActivity(i);
-                finish();
-            }
-        }, TIME_OUT);
-
+        getActionBar().setDisplayHomeAsUpEnabled(false);
 
 
     }

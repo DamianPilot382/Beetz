@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import java.util.HashMap;
+
 /**
  * Created by csastudent2015 on 5/24/16.
  */
@@ -26,5 +28,7 @@ public class SharedPreferencesThing {
             _prefsEditor.putString(KEY_PREFS_SMS_BODY, text);
             _prefsEditor.commit();
         }
+
+    HashMap<String, Boolean> name = new HashMap<String, Boolean>();
 }
 
